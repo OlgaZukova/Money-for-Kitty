@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    height: 100vh; /* 100% высоты окна */
+    background-image: url("kitty.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    background-color: rgba(94, 97, 93, 0.9);
+    overflow: hidden; /* запретить прокрутку, если нужно */
+}
+#container{
+    background-color: rgb(238, 233, 227);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 700px;
+    width: 500px;
+    border-radius: 20px;
+}
+h1{
+    font-family: "Roboto Slab", serif;
+    color: rgba(37, 38, 37, 0.9);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto Slab", serif;
+    font-size: 20px;
+    color: rgba(22, 22, 22, 0.9); 
+    margin: 20px; 
+    padding: 20px;  
+}
+input{
+    padding: 5px;
+    font-family: "Roboto Slab", serif;
+    font-size: 18px;
+}
+#btn{
+    padding: 5px;
+    font-family: "Roboto Slab", serif;
+    font-size: 18px;
+    border-radius: 10px; 
+    margin-top: 10px; 
+    background-color:rgba(94, 97, 93, 0.9); 
+    color: white; 
+}
+#billSplit{
+    margin-top: 20px;
+    font-family: "Roboto Slab", serif;
+    color: white;
+    background-color:rgba(94, 97, 93, 0.9); 
+    padding-right: 35px;
+    padding-left: 35px;
+    padding-bottom: 35px; 
+    border-radius: 10px; 
+    border: solid 1px black; 
+    font-size: 20px;  
+}
